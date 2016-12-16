@@ -26,7 +26,7 @@
     
     _previewController.view.frame = CGRectMake(0, 64, self.view.frame.size.width , self.view.frame.size.height);
     _previewController.currentPreviewItemIndex = 0;
-    //    [self addChildViewController:_previewController];
+        [self addChildViewController:_previewController];
     [self.view addSubview:_previewController.view];
     [_previewController reloadData];
     
